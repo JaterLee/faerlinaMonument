@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/supplies/supplies",
+    "pages/strategy/strategy",
+    "pages/member/member"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -8,6 +11,34 @@
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "法琳娜开门丰碑",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "勇士",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list.png"
+      },
+      {
+        "pagePath": "pages/supplies/supplies",
+        "text": "物资",
+        "iconPath": "images/supplies.png",
+        "selectedIconPath": "images/supplies.png"
+      },
+      {
+        "pagePath": "pages/strategy/strategy",
+        "text": "攻略",
+        "iconPath": "images/strategy.png",
+        "selectedIconPath": "images/strategy.png"
+      },
+      {
+        "pagePath": "pages/member/member",
+        "text": "个人",
+        "iconPath": "images/member.png",
+        "selectedIconPath": "images/member.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
